@@ -12,12 +12,12 @@
 <body>
 <section>
     <form>
+        <div class="container">
         <label for="exampleInputPassword1" class="form-label">Votre mail :</label>
         <div class="input-group flex-nowrap">
             <span class="input-group-text" id="exampleInputPassword1"><i class="bi bi-envelope"></i></span>
             <input type="text" class="form-control" placeholder="Username" aria-label=""
                    aria-describedby="addon-wrapping">
-
         </div>
         <label for="exampleInput" class="form-label mt-3">Votre nom :</label>
         <div class="input-group flex-nowrap">
@@ -26,7 +26,9 @@
                    aria-describedby="addon-wrapping">
         </div>
         <div class="mb-3">
-            <label for="disabledSelect" class="form-label">Quelle est le theme de votre questions</label>
+            <label for="exampleInputPassword2" class="form-label">Votre mail :</label>
+            <div class="input-group flex-nowrap">
+                <span class="input-group-text" id="exampleInputPassword2"><i class="bi bi-chat-left-dots-fill"></i></span>
             <select id="disabledSelect" class="form-select">
                 <option>Abonnement</option>
                 <option>Probleme technique</option>
@@ -34,14 +36,15 @@
                 <option>Autre</option>
             </select>
         </div>
-        <div class="mb-3">
-            <label for="disabledTextInput" class="form-label"></label>
-            <input type="text" id="disabledTextInput" class="form-control"
-                   placeholder="Votre question">
-        </div>
+            <div class="mb-3">
+                <label for="exampleFormControlTextarea1" class="form-label"></label>
+                <textarea class="form-control" id="exampleFormControlTextarea1" rows="3" placeholder="Votre question"></textarea>
+            </div>
         <div class="text-center">
             <button type="submit" class="btn btn-warning">Envoyer
             </button>
+        </div>
+        </div>
         </div>
     </form>
 </section>
